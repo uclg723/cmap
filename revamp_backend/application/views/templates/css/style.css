@@ -1,0 +1,13 @@
+.big p{
+padding: 15px;
+}
+.error
+{
+	color:#F00;
+}
+#footer{
+	background-color: #CCC;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:10px;
+}

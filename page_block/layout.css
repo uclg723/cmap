@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+
+.page-content{	
+	width:930px; 
+	margin-left:auto; 
+	margin-right:auto;
+}
+ul.page-menu{	
+	color: red;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+ul.page-menu li{
+	display:inline-block;
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+}
+ul.page-menu li a{
+	display:block;
+	min-width:50px;
+}

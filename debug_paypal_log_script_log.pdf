@@ -1,0 +1,300 @@
+<?php 
+\n/*// 2014-06-03 12:52:45 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2014-06-03 12:52:45 : payment.php: isset session tid, tid =145
+ */\n\n/*// 2014-06-03 12:52:45 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=Test+Paypal&item_desc=Booking+room%3ATest+Paypal%5Cnfrom+2014-06-04+to+2014-06-05%5Cn+for+user+with+email+%5Bfungcl%40yahoo.com%5D%5Cn&amount=1.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=Cheuk+Luk&last_name=Fung&item_number=145&option_index=4&on0=Description&os0=&on1=Room&os1=Test+Paypal&on2=FromDate&os2=2014-06-04&on3=ToDate&os3=2014-06-05&on4=Email&os4=fungcl%40yahoo.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=73]
+ */\n\n/*// 2014-06-03 12:52:55 : Calling payment-cancelled.php with post [Array
+(
+)
+] and GET [Array
+(
+)
+]\n
+ */\n\n/*// 2014-06-03 12:53:52 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2014-06-03 12:53:52 : payment.php: isset session tid, tid =146
+ */\n\n/*// 2014-06-03 12:53:52 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=Test+Paypal&item_desc=Booking+room%3ATest+Paypal%5Cnfrom+2014-06-04+to+2014-06-06%5Cn+for+user+with+email+%5Bfungcl%40yahoo.com%5D%5Cn&amount=2.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=Cheuk+Luk&last_name=Fung&item_number=146&option_index=4&on0=Description&os0=&on1=Room&os1=Test+Paypal&on2=FromDate&os2=2014-06-04&on3=ToDate&os3=2014-06-06&on4=Email&os4=fungcl%40yahoo.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=73]
+ */\n\n/*// 2014-06-03 12:54:49 : payment-success.php:: Calling payment-success.php with get [Array
+(
+    [tx] => 36460037CG707464U
+    [st] => Completed
+    [amt] => 2.00
+    [cc] => HKD
+    [cm] => 73
+    [item_number] => 146
+)
+]\n
+ */\n\n/*// 2014-06-03 12:54:49 : payment-success.php:: Info retrieved before processing  with session[tid] = [146]\n
+ */\n\n/*// 2014-06-03 12:54:49 : payment-success.php:: $booking = [Array
+(
+    [ID] => 146
+    [room] => 21
+    [UID] => 73
+    [from_date] => 2014-06-04
+    [to_date] => 2014-06-06
+    [amt] => 2
+    [currency] => HKD
+    [status] => 2
+)
+]\n
+ */\n\n/*// 2014-06-03 12:54:49 : payment-success.php:: $room = [Array
+(
+    [id] => 21
+    [room_name] => Test Paypal
+    [nor] => 0
+    [description] => abc
+    [add_info] => abc
+    [sq_feet] => 100
+    [mamount] => 1
+    [wamount] => 1
+    [damount] => 1
+    [status] => 2
+    [daily_booking] => 1
+    [weekly_booking] => 2
+    [monthly_booking] => 2
+    [created] => 2014-03-31 14:31:50
+)
+]\n
+ */\n\n/*// 2014-06-03 12:54:49 : payment-success.php with get response from paypal, Request is [1\n
+ */\n\n/*// 2014-06-03 12:54:49 : payment-success.php connect to paypal, header is [POST /cgi-bin/webscr HTTP/1.0
+Host: www.paypal.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 20
+
+] and $req = [cmd=_notify-validate]\n
+ */\n\n/*// 2014-06-03 12:56:37 : Calling payment-cancelled.php with post [Array
+(
+)
+] and GET [Array
+(
+)
+]\n
+ */\n\n/*// 2014-06-03 13:07:54 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2014-06-03 13:07:54 : payment.php: isset session tid, tid =147
+ */\n\n/*// 2014-06-03 13:07:54 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=Test+Paypal&item_desc=Booking+room%3ATest+Paypal%5Cnfrom+2014-06-09+to+2014-06-14%5Cn+for+user+with+email+%5Buniforex786%40yahoo.com.hk%5D%5Cn&amount=5.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=Cherry&last_name=Ha&item_number=147&option_index=4&on0=Description&os0=&on1=Room&os1=Test+Paypal&on2=FromDate&os2=2014-06-09&on3=ToDate&os3=2014-06-14&on4=Email&os4=uniforex786%40yahoo.com.hk&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=74]
+ */\n\n/*// 2014-06-03 13:08:48 : payment-success.php:: Calling payment-success.php with get [Array
+(
+    [tx] => 44R171130D755991A
+    [st] => Completed
+    [amt] => 5.00
+    [cc] => HKD
+    [cm] => 74
+    [item_number] => 147
+)
+]\n
+ */\n\n/*// 2014-06-03 13:08:48 : payment-success.php:: Info retrieved before processing  with session[tid] = [147]\n
+ */\n\n/*// 2014-06-03 13:08:48 : payment-success.php:: $booking = [Array
+(
+    [ID] => 147
+    [room] => 21
+    [UID] => 74
+    [from_date] => 2014-06-09
+    [to_date] => 2014-06-14
+    [amt] => 5
+    [currency] => HKD
+    [status] => 2
+)
+]\n
+ */\n\n/*// 2014-06-03 13:08:48 : payment-success.php:: $room = [Array
+(
+    [id] => 21
+    [room_name] => Test Paypal
+    [nor] => 0
+    [description] => abc
+    [add_info] => abc
+    [sq_feet] => 100
+    [mamount] => 1
+    [wamount] => 1
+    [damount] => 1
+    [status] => 2
+    [daily_booking] => 1
+    [weekly_booking] => 2
+    [monthly_booking] => 2
+    [created] => 2014-03-31 14:31:50
+)
+]\n
+ */\n\n/*// 2014-06-03 13:08:48 : payment-success.php with get response from paypal, Request is [1\n
+ */\n\n/*// 2014-06-03 13:08:48 : payment-success.php connect to paypal, header is [POST /cgi-bin/webscr HTTP/1.0
+Host: www.paypal.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 20
+
+] and $req = [cmd=_notify-validate]\n
+ */\n\n/*// 2014-06-12 16:37:42 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2014-06-12 16:37:42 : payment.php: isset session tid, tid =148
+ */\n\n/*// 2014-06-12 16:37:42 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=MONTH+HM1RGV112&item_desc=Booking+room%3AMONTH+HM1RGV112%5Cnfrom+2014-06-26+to+2014-07-26%5Cn+for+user+with+email+%5Bwkat234%40gmail.com%5D%5Cn&amount=26800.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=KKY&last_name=WONG&item_number=148&option_index=4&on0=Description&os0=&on1=Room&os1=MONTH+HM1RGV112&on2=FromDate&os2=2014-06-26&on3=ToDate&os3=2014-07-26&on4=Email&os4=wkat234%40gmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=70]
+ */\n\n/*// 2014-09-29 17:04:43 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2014-09-29 17:04:43 : payment.php: isset session tid, tid =149
+ */\n\n/*// 2014-09-29 17:04:43 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=INN+1ROV127&item_desc=Booking+room%3AINN+1ROV127%5Cnfrom+2014-10-08+to+2014-10-10%5Cn+for+user+with+email+%5Bwkat234%40gmail.com%5D%5Cn&amount=3160.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=KKY&last_name=WONG&item_number=149&option_index=4&on0=Description&os0=&on1=Room&os1=INN+1ROV127&on2=FromDate&os2=2014-10-08&on3=ToDate&os3=2014-10-10&on4=Email&os4=wkat234%40gmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=70]
+ */\n\n/*// 2014-10-04 21:44:29 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2014-10-04 21:44:29 : payment.php: isset session tid, tid =150
+ */\n\n/*// 2014-10-04 21:44:29 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=INN+1ROV127&item_desc=Booking+room%3AINN+1ROV127%5Cnfrom+2014-10-07+to+2014-10-15%5Cn+for+user+with+email+%5Bwkat234%40gmail.com%5D%5Cn&amount=11380.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=KKY&last_name=WONG&item_number=150&option_index=4&on0=Description&os0=&on1=Room&os1=INN+1ROV127&on2=FromDate&os2=2014-10-07&on3=ToDate&os3=2014-10-15&on4=Email&os4=wkat234%40gmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=70]
+ */\n\n/*// 2014-10-04 21:44:33 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2014-10-04 21:44:33 : payment.php: isset session tid, tid =151
+ */\n\n/*// 2014-10-04 21:44:33 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=INN+1ROV127&item_desc=Booking+room%3AINN+1ROV127%5Cnfrom+2014-10-07+to+2014-10-15%5Cn+for+user+with+email+%5Bwkat234%40gmail.com%5D%5Cn&amount=11380.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=KKY&last_name=WONG&item_number=151&option_index=4&on0=Description&os0=&on1=Room&os1=INN+1ROV127&on2=FromDate&os2=2014-10-07&on3=ToDate&os3=2014-10-15&on4=Email&os4=wkat234%40gmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=70]
+ */\n\n/*// 2014-10-04 21:44:33 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2014-10-04 21:44:33 : payment.php: isset session tid, tid =152
+ */\n\n/*// 2014-10-04 21:44:33 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=INN+1ROV127&item_desc=Booking+room%3AINN+1ROV127%5Cnfrom+2014-10-07+to+2014-10-15%5Cn+for+user+with+email+%5Bwkat234%40gmail.com%5D%5Cn&amount=11380.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=KKY&last_name=WONG&item_number=152&option_index=4&on0=Description&os0=&on1=Room&os1=INN+1ROV127&on2=FromDate&os2=2014-10-07&on3=ToDate&os3=2014-10-15&on4=Email&os4=wkat234%40gmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=70]
+ */\n\n/*// 2014-10-04 21:45:31 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2014-10-04 21:45:31 : payment.php: isset session tid, tid =153
+ */\n\n/*// 2014-10-04 21:45:31 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=INN+1ROV127&item_desc=Booking+room%3AINN+1ROV127%5Cnfrom+2014-11-11+to+2014-11-13%5Cn+for+user+with+email+%5Bwkat234%40gmail.com%5D%5Cn&amount=3160.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=KKY&last_name=WONG&item_number=153&option_index=4&on0=Description&os0=&on1=Room&os1=INN+1ROV127&on2=FromDate&os2=2014-11-11&on3=ToDate&os3=2014-11-13&on4=Email&os4=wkat234%40gmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=70]
+ */\n\n/*// 2014-10-04 21:46:46 : Calling payment-cancelled.php with post [Array
+(
+)
+] and GET [Array
+(
+)
+]\n
+ */\n\n/*// 2014-10-04 21:47:51 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2014-10-04 21:47:51 : payment.php: isset session tid, tid =154
+ */\n\n/*// 2014-10-04 21:47:51 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=INN+1ROV127&item_desc=Booking+room%3AINN+1ROV127%5Cnfrom+2014-10-15+to+2014-10-17%5Cn+for+user+with+email+%5Bwkat234%40gmail.com%5D%5Cn&amount=3160.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=KKY&last_name=WONG&item_number=154&option_index=4&on0=Description&os0=&on1=Room&os1=INN+1ROV127&on2=FromDate&os2=2014-10-15&on3=ToDate&os3=2014-10-17&on4=Email&os4=wkat234%40gmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=70]
+ */\n\n/*// 2014-10-04 21:50:40 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2014-10-04 21:50:40 : payment.php: isset session tid, tid =155
+ */\n\n/*// 2014-10-04 21:50:40 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=INN+1ROV127&item_desc=Booking+room%3AINN+1ROV127%5Cnfrom+2014-10-16+to+2014-10-17%5Cn+for+user+with+email+%5Bwkat234%40gmail.com%5D%5Cn&amount=1580.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=KKY&last_name=WONG&item_number=155&option_index=4&on0=Description&os0=&on1=Room&os1=INN+1ROV127&on2=FromDate&os2=2014-10-16&on3=ToDate&os3=2014-10-17&on4=Email&os4=wkat234%40gmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=70]
+ */\n\n/*// 2014-10-27 07:44:27 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2014-10-27 07:44:27 : payment.php: isset session tid, tid =156
+ */\n\n/*// 2014-10-27 07:44:27 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=MONTH+MK10ST&item_desc=Booking+room%3AMONTH+MK10ST%5Cnfrom+2014-11-19+to+2014-12-24%5Cn+for+user+with+email+%5Bwkat234%40gmail.com%5D%5Cn&amount=28250.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=KKY&last_name=WONG&item_number=156&option_index=4&on0=Description&os0=&on1=Room&os1=MONTH+MK10ST&on2=FromDate&os2=2014-11-19&on3=ToDate&os3=2014-12-24&on4=Email&os4=wkat234%40gmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=70]
+ */\n\n/*// 2014-10-27 07:44:31 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2014-10-27 07:44:31 : payment.php: isset session tid, tid =157
+ */\n\n/*// 2014-10-27 07:44:31 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=MONTH+MK10ST&item_desc=Booking+room%3AMONTH+MK10ST%5Cnfrom+2014-11-19+to+2014-12-24%5Cn+for+user+with+email+%5Bwkat234%40gmail.com%5D%5Cn&amount=28250.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=KKY&last_name=WONG&item_number=157&option_index=4&on0=Description&os0=&on1=Room&os1=MONTH+MK10ST&on2=FromDate&os2=2014-11-19&on3=ToDate&os3=2014-12-24&on4=Email&os4=wkat234%40gmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=70]
+ */\n\n/*// 2014-12-22 11:53:58 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2014-12-22 11:53:58 : payment.php: isset session tid, tid =158
+ */\n\n/*// 2014-12-22 11:53:58 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=INN+1ROV127&item_desc=Booking+room%3AINN+1ROV127%5Cnfrom+2014-12-25+to+2014-12-26%5Cn+for+user+with+email+%5Bfungcl%40yahoo.com%5D%5Cn&amount=1580.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=Cheuk+Luk&last_name=Fung&item_number=158&option_index=4&on0=Description&os0=&on1=Room&os1=INN+1ROV127&on2=FromDate&os2=2014-12-25&on3=ToDate&os3=2014-12-26&on4=Email&os4=fungcl%40yahoo.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=73]
+ */\n\n/*// 2014-12-22 11:54:25 : Calling payment-cancelled.php with post [Array
+(
+)
+] and GET [Array
+(
+)
+]\n
+ */\n\n/*// 2014-12-29 12:48:28 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2014-12-29 12:48:28 : payment.php: isset session tid, tid =159
+ */\n\n/*// 2014-12-29 12:48:28 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=INN+1ROV127&item_desc=Booking+room%3AINN+1ROV127%5Cnfrom+2015-01-01+to+2015-01-02%5Cn+for+user+with+email+%5Blongold8888%40hotmail.com%5D%5Cn&amount=1580.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=Ying+Lam&last_name=Kee&item_number=159&option_index=4&on0=Description&os0=&on1=Room&os1=INN+1ROV127&on2=FromDate&os2=2015-01-01&on3=ToDate&os3=2015-01-02&on4=Email&os4=longold8888%40hotmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=87]
+ */\n\n/*// 2014-12-29 12:54:22 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2014-12-29 12:54:22 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=&item_desc=Booking+room%3A%5Cnfrom++to+%5Cn+for+user+with+email+%5B%5D%5Cn&amount=0.00&cmd=_xclick&no_note=1&lc=USA&currency_code=&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=&last_name=&item_number=&option_index=4&on0=Description&os0=&on1=Room&os1=&on2=FromDate&os2=&on3=ToDate&os3=&on4=Email&os4=&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=]
+ */\n\n/*// 2015-01-06 12:51:15 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2015-01-06 12:51:15 : payment.php: isset session tid, tid =160
+ */\n\n/*// 2015-01-06 12:51:15 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=INN+1ROV127&item_desc=Booking+room%3AINN+1ROV127%5Cnfrom+2015-01-19+to+2015-01-22%5Cn+for+user+with+email+%5Bwkat234%40gmail.com%5D%5Cn&amount=4740.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=KKY&last_name=WONG&item_number=160&option_index=4&on0=Description&os0=&on1=Room&os1=INN+1ROV127&on2=FromDate&os2=2015-01-19&on3=ToDate&os3=2015-01-22&on4=Email&os4=wkat234%40gmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=70]
+ */\n\n/*// 2015-01-06 12:53:03 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2015-01-06 12:53:03 : payment.php: isset session tid, tid =161
+ */\n\n/*// 2015-01-06 12:53:03 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=MONTH+2RCV115&item_desc=Booking+room%3AMONTH+2RCV115%5Cnfrom+2015-01-21+to+2015-02-26%5Cn+for+user+with+email+%5Bwkat234%40gmail.com%5D%5Cn&amount=37580.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=KKY&last_name=WONG&item_number=161&option_index=4&on0=Description&os0=&on1=Room&os1=MONTH+2RCV115&on2=FromDate&os2=2015-01-21&on3=ToDate&os3=2015-02-26&on4=Email&os4=wkat234%40gmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=70]
+ */\n\n/*// 2015-03-06 12:44:15 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2015-03-06 12:44:15 : payment.php: isset session tid, tid =162
+ */\n\n/*// 2015-03-06 12:44:15 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=INN+1ROV127&item_desc=Booking+room%3AINN+1ROV127%5Cnfrom+2015-03-11+to+2015-03-12%5Cn+for+user+with+email+%5Bwkat234%40gmail.com%5D%5Cn&amount=1530.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=KKY&last_name=WONG&item_number=162&option_index=4&on0=Description&os0=&on1=Room&os1=INN+1ROV127&on2=FromDate&os2=2015-03-11&on3=ToDate&os3=2015-03-12&on4=Email&os4=wkat234%40gmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=70]
+ */\n\n/*// 2015-04-17 16:15:58 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2015-04-17 16:15:58 : payment.php: isset session tid, tid =163
+ */\n\n/*// 2015-04-17 16:15:58 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=INN+1ROV127&item_desc=Booking+room%3AINN+1ROV127%5Cnfrom+2015-04-17+to+2015-04-18%5Cn+for+user+with+email+%5Bfungcl%40yahoo.com%5D%5Cn&amount=1530.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=Cheuk+Luk&last_name=Fung&item_number=163&option_index=4&on0=Description&os0=&on1=Room&os1=INN+1ROV127&on2=FromDate&os2=2015-04-17&on3=ToDate&os3=2015-04-18&on4=Email&os4=fungcl%40yahoo.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=73]
+ */\n\n/*// 2015-04-23 21:07:39 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2015-04-23 21:07:39 : payment.php: isset session tid, tid =164
+ */\n\n/*// 2015-04-23 21:07:39 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=MONTH+1ROV219&item_desc=Booking+room%3AMONTH+1ROV219%5Cnfrom+2015-03-18+to+2015-04-28%5Cn+for+user+with+email+%5Bfungcl%40yahoo.com%5D%5Cn&amount=41520.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=Cheuk+Luk&last_name=Fung&item_number=164&option_index=4&on0=Description&os0=&on1=Room&os1=MONTH+1ROV219&on2=FromDate&os2=2015-03-18&on3=ToDate&os3=2015-04-28&on4=Email&os4=fungcl%40yahoo.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=73]
+ */\n\n/*// 2015-04-23 21:08:08 : Calling payment-cancelled.php with post [Array
+(
+)
+] and GET [Array
+(
+)
+]\n
+ */\n\n/*// 2015-04-26 13:08:14 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2015-04-26 13:08:14 : payment.php: isset session tid, tid =172
+ */\n\n/*// 2015-04-26 13:08:14 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=INN+1ROV127&item_desc=Booking+room%3AINN+1ROV127%5Cnfrom+2015-04-28+to+2015-05-27%5Cn+for+user+with+email+%5Bwkat234%40gmail.com%5D%5Cn&amount=40730.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=KKY&last_name=WONG&item_number=172&option_index=4&on0=Description&os0=&on1=Room&os1=INN+1ROV127&on2=FromDate&os2=2015-04-28&on3=ToDate&os3=2015-05-27&on4=Email&os4=wkat234%40gmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=70]
+ */\n\n/*// 2015-05-02 09:45:58 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2015-05-02 09:45:58 : payment.php: isset session tid, tid =173
+ */\n\n/*// 2015-05-02 09:45:58 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=MONTH+1RGV112&item_desc=Booking+room%3AMONTH+1RGV112%5Cnfrom+2015-05-30+to+2015-06-30%5Cn+for+user+with+email+%5Bclleo%40hotmail.com%5D%5Cn&amount=28380.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=Leo&last_name=ddddd&item_number=173&option_index=4&on0=Description&os0=&on1=Room&os1=MONTH+1RGV112&on2=FromDate&os2=2015-05-30&on3=ToDate&os3=2015-06-30&on4=Email&os4=clleo%40hotmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=94]
+ */\n\n/*// 2015-05-03 02:27:17 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2015-05-03 02:27:17 : payment.php: isset session tid, tid =174
+ */\n\n/*// 2015-05-03 02:27:17 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=Test&item_desc=Booking+room%3ATest%5Cnfrom+2015-05-21+to+2015-05-22%5Cn+for+user+with+email+%5Bwkat234%40gmail.com%5D%5Cn&amount=2.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=KKY&last_name=WONG&item_number=174&option_index=4&on0=Description&os0=&on1=Room&os1=Test&on2=FromDate&os2=2015-05-21&on3=ToDate&os3=2015-05-22&on4=Email&os4=wkat234%40gmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=70]
+ */\n\n/*// 2015-05-03 02:27:55 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2015-05-03 02:27:55 : payment.php: isset session tid, tid =175
+ */\n\n/*// 2015-05-03 02:27:55 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=Test&item_desc=Booking+room%3ATest%5Cnfrom+2015-05-28+to+2015-05-29%5Cn+for+user+with+email+%5Bwkat234%40gmail.com%5D%5Cn&amount=2.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=KKY&last_name=WONG&item_number=175&option_index=4&on0=Description&os0=&on1=Room&os1=Test&on2=FromDate&os2=2015-05-28&on3=ToDate&os3=2015-05-29&on4=Email&os4=wkat234%40gmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=70]
+ */\n\n/*// 2015-05-05 10:59:27 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2015-05-05 10:59:27 : payment.php: isset session tid, tid =176
+ */\n\n/*// 2015-05-05 10:59:27 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=booking+deposit&item_desc=Booking+room%3Abooking+deposit%5Cnfrom+2015-05-07+to+2015-05-13%5Cn+for+user+with+email+%5Bclleo%40hotmail.com%5D%5Cn&amount=30000.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=Leo&last_name=ddddd&item_number=176&option_index=4&on0=Description&os0=&on1=Room&os1=booking+deposit&on2=FromDate&os2=2015-05-07&on3=ToDate&os3=2015-05-13&on4=Email&os4=clleo%40hotmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=94]
+ */\n\n/*// 2015-05-09 23:46:45 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2015-05-09 23:46:45 : payment.php: isset session tid, tid =177
+ */\n\n/*// 2015-05-09 23:46:45 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=abc%2C&item_desc=Booking+room%3Aabc%2C%5Cnfrom+2015-05-14+to+2015-05-15%5Cn+for+user+with+email+%5Bwkat234%40gmail.com%5D%5Cn&amount=600.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=KKY&last_name=WONG&item_number=177&option_index=4&on0=Description&os0=&on1=Room&os1=abc%2C&on2=FromDate&os2=2015-05-14&on3=ToDate&os3=2015-05-15&on4=Email&os4=wkat234%40gmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=70]
+ */\n\n/*// 2015-05-13 10:17:08 : Calling payment.php with post [Array
+(
+)
+]\n
+ */\n\n/*// 2015-05-13 10:17:08 : payment.php: isset session tid, tid =184
+ */\n\n/*// 2015-05-13 10:17:08 : payment.php: redirecting to paypal [https://www.paypal.com/cgi-bin/webscr?business=cs%40cmaphk.com&item_name=INN+1ROV127&item_desc=Booking+room%3AINN+1ROV127%5Cnfrom+2015-05-15+to+2015-05-16%5Cn+for+user+with+email+%5Bclleo%40hotmail.com%5D%5Cn&amount=1530.00&cmd=_xclick&no_note=1&lc=USA&currency_code=HKD&bn=PP-BuyNowBF%3Abtn_buynow_LG.gif%3ANonHostedGuest&first_name=Leo&last_name=ddddd&item_number=184&option_index=4&on0=Description&os0=&on1=Room&os1=INN+1ROV127&on2=FromDate&os2=2015-05-15&on3=ToDate&os3=2015-05-16&on4=Email&os4=clleo%40hotmail.com&return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-successful.php&rm=0&cancel_return=http%3A%2F%2Fwww.cmaphk.com%2Fpayment-cancelled.php&notify_url=http%3A%2F%2Fwww.cmaphk.com%2Fpayments.php&custom=94]
+ */\n

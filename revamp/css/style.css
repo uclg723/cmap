@@ -1,0 +1,22 @@
+body {
+	font-family:Arial, Helvetica, sans-serif, "Arial Narrow";
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 16px;
+}
+
+.nav{
+	color:#585858;
+	text-decoration: none;
+	font-size:15px;
+}
+.nav:hover{
+	color:#000000;
+}
+
+/* Remove IE image border */
+a img {border: none; }

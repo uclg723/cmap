@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+
+        <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">CHAMPK</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="users_list.php">Users</a></li>
+            <li><a href="room_list.php">Rooms</a></li>
+            <li><a href="#contact">Contact</a></li
+          ></ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Log Out</a></li>
+               <!-- <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>-->
+          </ul>
+           </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+
+  <div class="container">
+
+      <div class="page-header">
+        <h1>Buttons</h1>
+      </div>
+      
+      
+      
+      <div class="col-lg-6">
+      
+      <form method="post" role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">First Name</label>
+    <input type="text" name="fname" class="form-control" id="exampleInputEmail1" placeholder="Enter first name">
+  </div>
+  
+  <div class="form-group">
+    <label for="exampleInputEmail1">Last Name</label>
+    <input type="text" name="lname" class="form-control" id="exampleInputEmail1" placeholder="Enter last name">
+  </div>
+  
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email Address</label>
+    <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email address">
+  </div>
+  
+  <div class="form-group">
+    <label for="exampleInputEmail1">Phone Number</label>
+    <input type="text" name="phone" class="form-control" id="exampleInputEmail1" placeholder="Enter phone number">
+  </div>
+  
+  
+  
+<!--  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>-->
+  <button type="submit" name="submit" class="btn btn-default">Submit</button>
+   <input type="hidden" value="<?php echo $id; ?>" name="id" />
+</form>
+</div>
+
+
+
+
+      <div class="col-lg-6">
+      
+      <form method="post" role="form">
+  <div class="form-group">
+    <label for="exampleInputroom_name"><br>Rooom Name</label>
+    <input type="text" name="room_name" class="form-control" id="exampleInputroom_name" placeholder="Enter room name">
+  </div>
+  
+  <div class="form-group">
+    <label for="exampleInputnor">No of Rooms</label>
+    <input type="text" name="nor" class="form-control" id="exampleInputnor" placeholder="Enter number of rooms">
+  </div>
+  
+  <div class="form-group">
+    <label for="exampleInputdescription">Description</label>
+    <input type="text" name="description" class="form-control" id="exampleInputdescription" placeholder="Enter description">
+  </div>
+  
+  <div class="form-group">
+    <label for="exampleInputadd_info">Additional Information</label>
+    <textarea name="add_info" class="form-control" id="exampleInputadd_info" rows="3" placeholder="Enter additional information"></textarea>
+  </div>
+  
+  <div class="form-group">
+    <label for="exampleInputsq_feet">Square Feet</label>
+    <input type="text" name="sq_feet" class="form-control" id="exampleInputsq_feet" placeholder="Enter square feet">
+  </div>
+  
+  <div class="form-group">
+    <label for="exampleInputamount">Amount</label>
+    <input type="text" name="amount" class="form-control" id="exampleInputamount" placeholder="Enter amount">
+  </div>
+  
+   <div class="form-group">
+    <label for="exampleInputstatus">Status</label>
+    <input type="text" name="status" class="form-control" id="exampleInputstatus" placeholder="Enter status" value="<?php echo $status; ?>"><?php echo isset($status_error)?'<span class="error">'.$status_error.'</span>':''; ?>
+  </div>
+  
+<!--  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>-->
+  <button type="submit" name="submit" class="btn btn-default">Submit</button>
+   <input type="hidden" value="<?php echo $id; ?>" name="id" />
+</form>
+</div>
+
+   <div class="bs-example">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+ </div><!-- /.container -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

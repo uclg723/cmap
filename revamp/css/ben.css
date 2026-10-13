@@ -1,0 +1,46 @@
+.body{
+  margin-left:auto;
+  margin-right:auto;
+  width: 900px;
+  background-color: #F0F0F0;
+  /* background: url('../images/bg.gif') repeat-x scroll 0% 0% #F0F0F0; */
+}
+.align-left{
+  display:inline-block;
+ float: left;
+}
+.align-right{  
+  display:inline-block;
+  float: right;
+}
+.vertical-align-middle{
+	vertical-align:middle;
+}
+/* For header_logo.php */
+.header_logo{
+  display: table; height: 150px; overflow: hidden; width:100%;
+}
+.header_logo_icon{
+display: table-cell;
+}
+.header_logo_phone{
+display: table-cell; vertical-align: middle;
+}
+
+/* For menu.php */
+.menu_item{
+  padding-left: 25px; padding-right: 25px;  
+  text-decoration: none;
+  color: #585858;
+  font-size:15px;
+  display:inline-block;
+}
+/* For login.php */
+.div-login{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.login-form-label{
+  display:inline-block;
+  width: 155px;
+}

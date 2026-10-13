@@ -1,0 +1,395 @@
+@CHARSET "UTF-8";
+.calendar-table{
+	font-size: 11px;
+	font-family:'Times New Roman';
+	border-collapse:collapse;
+}
+.hover{
+	background-color: lightGreen;
+}
+.calendar-row{
+}
+.calendar-col{
+	text-align: center;
+}
+.calendar-cell{
+	text-align: center;
+}
+
+.calendar-table-head{
+	border:1px solid black;
+	text-align: center;
+}
+
+.room-info{
+	width: 50px;
+	border:1px solid black;
+}
+
+.room-status-inactive{
+  background-color:red;
+}
+
+.booking-inactive{
+	color: red;
+}
+
+/* background color box */
+.none-light-none-light{
+  background-image:url('./images/none-none.png');
+  background-repeat: no-repeat;	
+}
+.none-light-phone-light{
+  background-image:url('./images/none-phone-light.png');
+  background-repeat: no-repeat;
+}
+.none-light-vip-light{
+  background-image:url('./images/none-vip-light.png');
+  background-repeat: no-repeat;
+}
+.none-light-online-light{
+  background-image:url('./images/none-online-light.png');
+  background-repeat: no-repeat;
+}
+.none-light-repair-light{
+  background-image:url('./images/none-repair-light.png');
+  background-repeat: no-repeat;
+}
+.none-light-phone-dark{
+  background-image:url('./images/none-phone-dark.png');
+  background-repeat: no-repeat;
+}
+.none-light-vip-dark{
+  background-image:url('./images/none-vip-dark.png');
+  background-repeat: no-repeat;
+}
+.none-light-online-dark{
+  background-image:url('./images/none-online-dark.png');
+  background-repeat: no-repeat;
+}
+.none-light-repair-dark{
+  background-image:url('./images/none-repair-dark.png');
+  background-repeat: no-repeat;
+}
+
+/* Color: phone-light start */
+.phone-light-none-light{
+  background-image:url('./images/phone-light-none.png');
+  background-repeat: no-repeat;	
+}
+.phone-light-phone-light{
+  background-image:url('./images/phone-light-phone-light.png');
+  background-repeat: no-repeat;
+}
+.phone-light-vip-light{
+  background-image:url('./images/phone-light-vip-light.png');
+  background-repeat: no-repeat;
+}
+.phone-light-online-light{
+  background-image:url('./images/phone-light-online-light.png');
+  background-repeat: no-repeat;
+}
+.phone-light-repair-light{
+  background-image:url('./images/phone-light-repair-light.png');
+  background-repeat: no-repeat;
+}
+.phone-light-phone-dark{
+  background-image:url('./images/phone-light-phone-dark.png');
+  background-repeat: no-repeat;
+}
+.phone-light-vip-dark{
+  background-image:url('./images/phone-light-vip-dark.png');
+  background-repeat: no-repeat;
+}
+.phone-light-online-dark{
+  background-image:url('./images/phone-light-online-dark.png');
+  background-repeat: no-repeat;
+}
+.phone-light-repair-dark{
+  background-image:url('./images/phone-light-repair-dark.png');
+  background-repeat: no-repeat;
+}
+
+/* Color: vip-light start */
+.vip-light-none-light{
+  background-image:url('./images/vip-light-none.png');
+  background-repeat: no-repeat;	
+}
+.vip-light-phone-light{
+  background-image:url('./images/vip-light-phone-light.png');
+  background-repeat: no-repeat;
+}
+.vip-light-vip-light{
+  background-image:url('./images/vip-light-vip-light.png');
+  background-repeat: no-repeat;
+}
+.vip-light-online-light{
+  background-image:url('./images/vip-light-online-light.png');
+  background-repeat: no-repeat;
+}
+.vip-light-repair-light{
+  background-image:url('./images/vip-light-repair-light.png');
+  background-repeat: no-repeat;
+}
+.vip-light-phone-dark{
+  background-image:url('./images/vip-light-phone-dark.png');
+  background-repeat: no-repeat;
+}
+.vip-light-vip-dark{
+  background-image:url('./images/vip-light-vip-dark.png');
+  background-repeat: no-repeat;
+}
+.vip-light-online-dark{
+  background-image:url('./images/vip-light-online-dark.png');
+  background-repeat: no-repeat;
+}
+.vip-light-repair-dark{
+  background-image:url('./images/vip-light-repair-dark.png');
+  background-repeat: no-repeat;
+}
+
+/* Color: online-light start */
+.online-light-none-light{
+  background-image:url('./images/online-light-none.png');
+  background-repeat: no-repeat;	
+}
+.online-light-phone-light{
+  background-image:url('./images/online-light-phone-light.png');
+  background-repeat: no-repeat;
+}
+.online-light-vip-light{
+  background-image:url('./images/online-light-vip-light.png');
+  background-repeat: no-repeat;
+}
+.online-light-online-light{
+  background-image:url('./images/online-light-online-light.png');
+  background-repeat: no-repeat;
+}
+.online-light-repair-light{
+  background-image:url('./images/online-light-repair-light.png');
+  background-repeat: no-repeat;
+}
+.online-light-phone-dark{
+  background-image:url('./images/online-light-phone-dark.png');
+  background-repeat: no-repeat;
+}
+.online-light-vip-dark{
+  background-image:url('./images/online-light-vip-dark.png');
+  background-repeat: no-repeat;
+}
+.online-light-online-dark{
+  background-image:url('./images/online-light-online-dark.png');
+  background-repeat: no-repeat;
+}
+.online-light-repair-dark{
+  background-image:url('./images/online-light-repair-dark.png');
+  background-repeat: no-repeat;
+}
+
+/* Color: phone-dark start */
+.phone-dark-none-light{
+  background-image:url('./images/phone-dark-none.png');
+  background-repeat: no-repeat;	
+}
+.phone-dark-phone-light{
+  background-image:url('./images/phone-dark-phone-light.png');
+  background-repeat: no-repeat;
+}
+.phone-dark-vip-light{
+  background-image:url('./images/phone-dark-vip-light.png');
+  background-repeat: no-repeat;
+}
+.phone-dark-online-light{
+  background-image:url('./images/phone-dark-online-light.png');
+  background-repeat: no-repeat;
+}
+.phone-dark-repair-light{
+  background-image:url('./images/phone-dark-repair-light.png');
+  background-repeat: no-repeat;
+}
+.phone-dark-phone-dark{
+  background-image:url('./images/phone-dark-phone-dark.png');
+  background-repeat: no-repeat;
+}
+.phone-dark-vip-dark{
+  background-image:url('./images/phone-dark-vip-dark.png');
+  background-repeat: no-repeat;
+}
+.phone-dark-online-dark{
+  background-image:url('./images/phone-dark-online-dark.png');
+  background-repeat: no-repeat;
+}
+.phone-dark-repair-dark{
+  background-image:url('./images/phone-dark-repair-dark.png');
+  background-repeat: no-repeat;
+}
+
+/* Color: vip-dark start */
+.vip-dark-none-light{
+  background-image:url('./images/vip-dark-none.png');
+  background-repeat: no-repeat;	
+}
+.vip-dark-phone-light{
+  background-image:url('./images/vip-dark-phone-light.png');
+  background-repeat: no-repeat;
+}
+.vip-dark-vip-light{
+  background-image:url('./images/vip-dark-vip-light.png');
+  background-repeat: no-repeat;
+}
+.vip-dark-online-light{
+  background-image:url('./images/vip-dark-online-light.png');
+  background-repeat: no-repeat;
+}
+.vip-dark-repair-light{
+  background-image:url('./images/vip-dark-repair-light.png');
+  background-repeat: no-repeat;
+}
+.vip-dark-phone-dark{
+  background-image:url('./images/vip-dark-phone-dark.png');
+  background-repeat: no-repeat;
+}
+.vip-dark-vip-dark{
+  background-image:url('./images/vip-dark-vip-dark.png');
+  background-repeat: no-repeat;
+}
+.vip-dark-online-dark{
+  background-image:url('./images/vip-dark-online-dark.png');
+  background-repeat: no-repeat;
+}
+.vip-dark-repair-dark{
+  background-image:url('./images/vip-dark-repair-dark.png');
+  background-repeat: no-repeat;
+}
+
+/* Color: online-dark start */
+.online-dark-none-light{
+  background-image:url('./images/online-dark-none.png');
+  background-repeat: no-repeat;	
+}
+.online-dark-phone-light{
+  background-image:url('./images/online-dark-phone-light.png');
+  background-repeat: no-repeat;
+}
+.online-dark-vip-light{
+  background-image:url('./images/online-dark-vip-light.png');
+  background-repeat: no-repeat;
+}
+.online-dark-online-light{
+  background-image:url('./images/online-dark-online-light.png');
+  background-repeat: no-repeat;
+}
+.online-dark-repair-light{
+  background-image:url('./images/online-dark-repair-light.png');
+  background-repeat: no-repeat;
+}
+.online-dark-phone-dark{
+  background-image:url('./images/online-dark-phone-dark.png');
+  background-repeat: no-repeat;
+}
+.online-dark-vip-dark{
+  background-image:url('./images/online-dark-vip-dark.png');
+  background-repeat: no-repeat;
+}
+.online-dark-online-dark{
+  background-image:url('./images/online-dark-online-dark.png');
+  background-repeat: no-repeat;
+}
+.online-dark-repair-dark{
+  background-image:url('./images/online-dark-repair-dark.png');
+  background-repeat: no-repeat;
+}
+
+/* Color: repair-dark start */
+.repair-dark-none-light{
+  background-image:url('./images/repair-dark-none.png');
+  background-repeat: no-repeat;	
+}
+.repair-dark-phone-light{
+  background-image:url('./images/repair-dark-phone-light.png');
+  background-repeat: no-repeat;
+}
+.repair-dark-vip-light{
+  background-image:url('./images/repair-dark-vip-light.png');
+  background-repeat: no-repeat;
+}
+.repair-dark-online-light{
+  background-image:url('./images/repair-dark-online-light.png');
+  background-repeat: no-repeat;
+}
+.repair-dark-repair-light{
+  background-image:url('./images/repair-dark-repair-light.png');
+  background-repeat: no-repeat;
+}
+
+.repair-dark-phone-dark{
+  background-image:url('./images/repair-dark-phone-dark.png');
+  background-repeat: no-repeat;
+}
+.repair-dark-vip-dark{
+  background-image:url('./images/repair-dark-vip-dark.png');
+  background-repeat: no-repeat;
+}
+.repair-dark-online-dark{
+  background-image:url('./images/repair-dark-online-dark.png');
+  background-repeat: no-repeat;
+}
+.repair-dark-repair-dark{
+  background-image:url('./images/repair-dark-repair-dark.png');
+  background-repeat: no-repeat;
+}
+/* Color: repair-light start */
+.repair-light-none-light{
+  background-image:url('./images/repair-light-none.png');
+  background-repeat: no-repeat;	
+}
+.repair-light-phone-light{
+  background-image:url('./images/repair-light-phone-light.png');
+  background-repeat: no-repeat;
+}
+.repair-light-vip-light{
+  background-image:url('./images/repair-light-vip-light.png');
+  background-repeat: no-repeat;
+}
+.repair-light-online-light{
+  background-image:url('./images/repair-light-online-light.png');
+  background-repeat: no-repeat;
+}
+.repair-light-repair-light{
+  background-image:url('./images/repair-light-repair-light.png');
+  background-repeat: no-repeat;
+}
+.repair-light-phone-dark{
+  background-image:url('./images/repair-light-phone-dark.png');
+  background-repeat: no-repeat;
+}
+.repair-light-vip-dark{
+  background-image:url('./images/repair-light-vip-dark.png');
+  background-repeat: no-repeat;
+}
+.repair-light-online-dark{
+  background-image:url('./images/repair-light-online-dark.png');
+  background-repeat: no-repeat;
+}
+.repair-light-repair-dark{
+  background-image:url('./images/repair-light-repair-dark.png');
+  background-repeat: no-repeat;
+}
+
+
+
+.calendar-cell {
+	width: 32px;
+	height: 32px;
+	max-width: 32px;
+	max-height: 32px;
+	min-width:32px;
+	min-height:32px;
+	overflow: hidden;
+	text-overflow: ellipsis;	
+	border:1px solid black;
+	padding:0px;
+	margin:0px;
+	text-align: right;
+	cursor: pointer;
+}

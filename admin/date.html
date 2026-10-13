@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Datepicker for Bootstrap</title>
+    <link href="http://vitalets.github.io/bootstrap-datepicker/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/datepicker.css" rel="stylesheet">
+	<style>
+	#alert {
+		display: none;
+	}
+    body {
+        padding-top: 50px;
+    }
+	</style>
+    <link href="google-code-prettify/prettify.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <script src="bootstrap-datepicker-masterjs/prettify.js"></script>
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="bootstrap-datepicker-master/js/bootstrap-datepicker.js"></script>    
+    
+  </head>
+
+  <body>
+  
+   <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand" href="#">Datepicker for Bootstrap</a>
+                <ul class="nav">
+                    <li class="active"><a href="#">Docs and examples</a></li>
+                    <li><a href="https://github.com/vitalets/bootstrap-datepicker" taget="_blank">Watch on GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+   </div>  
+  
+  <div class="container">
+    <section id="typeahead">
+      <div class="page-header">
+        <h1>Datepicker for Bootstrap <small>bootstrap-datepicker.js</small></h1>
+      </div>
+
+      <div class="row">
+          <div class="well">
+            <input type="text" class="span2" value="02-16-2012" id="dp1" >
+          </div>
+
+</div>
+	<script>
+		$(function(){
+			window.prettyPrint && prettyPrint();
+			$('#dp1').datepicker({
+				format: 'mm-dd-yyyy',
+                todayBtn: 'linked'
+			});
+            			           
+		});
+	</script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/cmaphk/!svn/ver/1/admin/cal/demos
+END
+basic-views.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/cmaphk/!svn/ver/1/admin/cal/demos/basic-views.html
+END
+json-events.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/cmaphk/!svn/ver/1/admin/cal/demos/json-events.php
+END
+external-dragging.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/cmaphk/!svn/ver/1/admin/cal/demos/external-dragging.html
+END
+theme.html
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/cmaphk/!svn/ver/1/admin/cal/demos/theme.html
+END
+selectable.html
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/cmaphk/!svn/ver/1/admin/cal/demos/selectable.html
+END
+default.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/cmaphk/!svn/ver/1/admin/cal/demos/default.html
+END
+gcal.html
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/cmaphk/!svn/ver/1/admin/cal/demos/gcal.html
+END
+json.html
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/cmaphk/!svn/ver/1/admin/cal/demos/json.html
+END
+agenda-views.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/cmaphk/!svn/ver/1/admin/cal/demos/agenda-views.html
+END

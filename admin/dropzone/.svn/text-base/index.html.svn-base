@@ -1,0 +1,30 @@
+<html>
+ 
+<head>   
+ 
+<!-- 1 -->
+<link href="css/dropzone.css" type="text/css" rel="stylesheet" />
+ 
+<!-- 2 -->
+<script src="dropzone.js"></script>
+<script type="text/javascript">
+Dropzone.options.myDrop = {
+  init: function() {
+    this.on("complete", function() {
+      if (this.getQueuedFiles().length == 0 && this.getUploadingFiles().length == 0) {
+        alert("// File finished uploading, and there aren't any left in the queue.");
+      }
+    });
+  }
+};</script>
+ 
+</head>
+ 
+<body>
+ 
+<!-- 3 -->
+<form action="upload.php" class="dropzone"></form>
+   
+</body>
+ 
+</html>
